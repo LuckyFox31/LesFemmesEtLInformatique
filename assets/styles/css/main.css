@@ -8462,9 +8462,12 @@ textarea.form-control-lg {
 /* Configuration SCSS */
 #nav-img {
   height: 50px; }
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     #nav-img {
       height: 35px; } }
+  @media screen and (max-width: 576px) {
+    #nav-img {
+      height: 30px; } }
 
 /* Navbar */
 
