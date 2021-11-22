@@ -1,0 +1,27 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+$font-family-sans-serif: "Merriweather", serif;
+
+/* Variables */
+$wine: #6f1d1b;
+$mustard: #bb9457;
+$darkwood: #432818;
+$coffee: #99582a;
+$cream: #ffe6a7;
+$background: #fff8e5;
+
+/* Color map */
+$theme-colors: (
+	"wine": $wine,
+	"mustard": $mustard,
+	"darkwood": $darkwood,
+	"coffee": $coffee,
+	"cream": $cream,
+);
+
+/* Custom background */
+$body-bg: $background;
+$body-color: $darkwood;
+
+/* Import Bootstrap */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
