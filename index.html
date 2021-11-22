@@ -9,20 +9,99 @@
 			content="Découvrez les femmes qui ont marquées l’informatique. Le blog officiel."
 		/>
 		<link rel="stylesheet" href="./assets/styles/css/main.css" />
+		<link rel="stylesheet" href="./assets/styles/css/accueil.css" />
 		<script
 			src="./node_modules/bootstrap/dist/js/bootstrap.min.js"
 			defer
 		></script>
-		<title>Les Femmes et l'informatique</title>
+		<title>Accueil | Les Femmes et l'informatique</title>
 	</head>
 	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-4">
+				<div class="container-lg">
+					<a class="navbar-brand" href="#">
+						<img
+							id="nav-img"
+							src="./assets/img/logos/logo-navbar.png"
+							alt="Les femmes et l'informatique logo"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarText"
+						aria-controls="navbarText"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"
+									>Accueil</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Personnalités</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Mentions</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section id="home" class="position-relative">
+				<div
+					class="
+						container-lg
+						position-absolute
+						top-50
+						start-50
+						translate-middle
+					"
+				>
+					<img
+						class="img-fluid px-5 d-block mx-auto"
+						src="./assets/img/logos/logo-footer.png"
+						alt="Les femmes et l'informatique logo"
+						draggable="false"
+					/>
+					<h1 class="text-cream text-center fs-2 mt-5 fw-bold">
+						Découvrez les femmes qui ont marquées l’informatique
+					</h1>
+				</div>
+				<div
+					class="position-absolute bottom-0 start-50 translate-middle-x mb-5"
+				>
+					<a href="#" class="text-decoration-none">
+						<p class="link-cream text-center fw-bold fs-5">Découvrir</p>
+						<img
+							class="d-block mx-auto"
+							src="./assets/img/icons/arrow-down.png"
+							alt="Fleche vers le bas"
+							draggable="false"
+						/>
+					</a>
+				</div>
+			</section>
+		</main>
 		<footer>
 			<section class="bg-wine py-4 text-cream">
 				<div class="container-lg">
 					<div class="row">
 						<div class="col-sm-5 d-flex align-items-center">
 							<img
-								class="img-fluid"
+								class="img-fluid px-5 px-sm-0"
 								src="./assets/img/logos/logo-footer.png"
 								alt="Les femmes et l'informatique Logo"
 								draggable="false"

@@ -1,0 +1,15 @@
+header {
+	z-index: 10000;
+	position: absolute;
+	width: 100vw;
+	top: 0;
+	left: 0;
+}
+
+#home {
+	height: 100vh;
+	background-image: url("../../img/background-image.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
