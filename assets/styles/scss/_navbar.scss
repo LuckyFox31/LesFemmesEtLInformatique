@@ -1,0 +1,7 @@
+#nav-img {
+	height: 50px;
+
+	@media (max-width: 768px) {
+		height: 35px;
+	}
+}
