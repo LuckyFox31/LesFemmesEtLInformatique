@@ -11,4 +11,8 @@
 textarea {
   resize: none; }
 
+.form-control:focus {
+  border: none;
+  box-shadow: none; }
+
 /*# sourceMappingURL=contact.css.map */
