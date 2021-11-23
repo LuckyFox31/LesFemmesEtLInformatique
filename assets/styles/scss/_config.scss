@@ -8,6 +8,7 @@ $mustard: #bb9457;
 $darkwood: #432818;
 $coffee: #99582a;
 $cream: #ffe6a7;
+$creamactive: rgba(255, 230, 167, 0.8);
 $background: #fff8e5;
 
 /* Color map */
@@ -22,6 +23,11 @@ $theme-colors: (
 /* Custom background */
 $body-bg: $background;
 $body-color: $darkwood;
+
+/* Navbar */
+$navbar-dark-color: $creamactive;
+$navbar-dark-hover-color: $cream;
+$navbar-dark-active-color: $cream;
 
 /* Import Bootstrap */
 @import "../../../node_modules/bootstrap/scss/bootstrap";
