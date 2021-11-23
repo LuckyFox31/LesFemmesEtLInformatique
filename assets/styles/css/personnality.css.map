@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"personnality.css"}
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACH,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM",
+"sources": ["../scss/personnality.scss"],
+"names": [],
+"file": "personnality.css"
+}
