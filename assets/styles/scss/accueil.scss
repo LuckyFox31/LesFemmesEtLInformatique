@@ -1,0 +1,58 @@
+header {
+	z-index: 10000;
+	position: absolute;
+	width: 100vw;
+	top: 0;
+	left: 0;
+}
+
+#home {
+	height: 100vh;
+	background-image: url("../../img/background-image.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hr {
+	align-items: center;
+	display: flex;
+	text-align: center;
+}
+
+.hr::before,
+.hr::after {
+	border-top: 0.0625em solid;
+	content: "";
+	flex: 1;
+}
+
+.hr::before {
+	margin: 0 1em 0 25vw;
+
+	@media screen and (max-width: 768px) {
+		margin: 0 1em 0 10vw;
+	}
+}
+
+.hr::after {
+	margin: 0 25vw 0 1em;
+
+	@media screen and (max-width: 768px) {
+		margin: 0 10vw 0 1em;
+	}
+}
+
+@keyframes arrowAnimation {
+	0% {
+		transform: translateY(0px);
+	}
+
+	100% {
+		transform: translateY(10px);
+	}
+}
+
+#arrow {
+	animation: arrowAnimation 1s ease-in-out alternate-reverse infinite;
+}
