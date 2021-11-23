@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,GAAI;EACH,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM",
+"mappings": "AAAA,GAAI;EACH,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;;AAGnB,UAAW;EACV,UAAU,EAAE,cAAc;EAC1B,OAAO,EAAE,EAAE;EACX,IAAI,EAAE,CAAC;EACP,MAAM,EAAE,SAAS",
 "sources": ["../scss/personnality.scss"],
 "names": [],
 "file": "personnality.css"

@@ -3,3 +3,10 @@
 	display: flex;
 	text-align: center;
 }
+
+.hr::after {
+	border-top: 0.0625em solid;
+	content: "";
+	flex: 1;
+	margin: 0 0 0 1em;
+}
