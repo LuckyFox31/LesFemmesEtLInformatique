@@ -8471,7 +8471,10 @@ textarea.form-control-lg {
       height: 35px; } }
   @media screen and (max-width: 576px) {
     #nav-img {
-      height: 30px; } }
+      height: 27px; } }
+  @media screen and (max-width: 350px) {
+    #nav-img {
+      height: 20px; } }
 
 /* Navbar */
 
